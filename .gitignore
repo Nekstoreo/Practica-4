@@ -1,0 +1,89 @@
+# Archivos de sistema
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Entornos virtuales de Python
+venv/
+env/
+ENV/
+.venv/
+.env
+
+# Archivos de caché de Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+.jupyter/
+
+# IPython
+.ipython/
+profile_default/
+
+# Datos y archivos de prueba - MANTENER SOLO ORIGINALES
+*.csv
+!water_potability.csv
+
+# Archivos pkl de modelos (demasiado grandes)
+*.pkl
+!best_water_potability_model.pkl
+!model_info.pkl
+
+# Archivos generados automáticamente
+*.html
+!water_potability_profiling_report.html
+*.png
+!deployment_screenshot.png
+
+# Logs
+*.log
+logs/
+
+# Archivos temporales
+*.tmp
+*.temp
+temp/
+
+# Archivos del sistema operativo
+.env.local
+.env.*.local
+
+# Ruido
+.DS_Store
+node_modules/

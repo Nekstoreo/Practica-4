@@ -1,0 +1,9 @@
+pandas
+numpy
+matplotlib
+scikit-learn
+streamlit
+imbalanced-learn
+seaborn
+ydata_profiling
+setuptools
